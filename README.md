@@ -1,9 +1,12 @@
-# Domain-System
+# 135Cloud Domain System 1.0.0()
 
-135Cloud 域名系統原始碼
-domain.135cloud.com
+135Domain 原始碼
+
+https://domain.135cloud.com
 
 如有需要使用的話，歡迎使用，但請標註來源。
+
+由於目前 135Cloud 使用環境為，用戶管理藉由 UCenter 管理，後續版本會新增自己的用戶管理功能。
 
 目前本系統無以下功能
 1. 後臺管理介面
@@ -15,7 +18,7 @@ domain.135cloud.com
 2. Plesk 主機訂閱管理
 3. 金流使用ECPay
 
-安裝需修改
-config.inc.php ------------> UCenter相關
-config.php ----------------> 系統設定
-app\controllers\cron.php --> 通知 Email 相關
+目前安裝需修改以下檔案並手動匯入資料表
+1. config.inc.php // UCenter相關
+2. config.php // 系統設定
+3. app\controllers\cron.php // 通知 Email 相關
